@@ -1,0 +1,179 @@
+header
+{
+	background: black;
+	font-family: Verdana, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	height: 50px;
+	vertical-align: middle;
+	margin: -20px 0px 0px 0px;
+	padding: 20px 0px 0px 20px;
+}
+
+h3
+{
+	color: red;
+}
+
+table
+{
+	padding-left: 200px;
+}
+
+.headertext1
+{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.headertext2
+{
+	font-size: 20px;
+	font-weight: bold;
+	color: #6B0000;
+}
+
+body 
+{
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	background: white;
+}
+
+a
+{
+	text-decoration: none;
+	color: #800F00;
+}
+a:hover 
+{
+	text-decoration: none;
+	color:#800F00;
+}
+
+a:link
+{
+	text-decoration: none;
+	color: #800F00;
+}
+
+a:visited
+{
+	text-decoration: none;
+	color: #800F00;
+}
+
+nav ul
+{
+	float: left;
+	width: 100%;
+	padding: 0px;
+	margin:0px 0px;
+	list-style: none;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+nav ul li
+{
+	float:left;
+	margin-right: 10px;
+}
+
+
+
+nav ul li a:link, nav ul li a:visited
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: #6B0000;;
+       	
+	display: block;
+	
+	width: 100px;
+
+	height: 18px;	
+	border: 1px solid #BC9C1A;
+	background: #4DAA4D;
+	padding-top:4px;
+	text-align: center;
+}
+
+
+nav ul li a:hover, nav ul li a:active
+{
+	background: #005600;
+	color: white;
+
+	
+}
+
+.mainText
+{
+	margin-top: 10px;
+	width: 90%;
+	margin-left: 5%;
+}
+
+.pageTitle
+{
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffffff;
+	background: #104010;
+	width: 150px;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 35px;
+}
+
+.sectionTitle
+{
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	background: #104010;
+	width: 150px;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.boarderTable
+{
+	border-collapse:collapse;
+	width: 100%;
+}
+
+.boarderTable th
+{
+	font-size:12px;
+	font-weight:bold;
+	text-align: left;
+	vertical-align:top;
+	border-bottom: 1px solid #c6c9cc;
+}
+
+.boarderTable td
+{
+	padding: 5px 5px 2px 5px;
+	border-bottom: 1px solid #c6c9cc;
+	vertical-align:top;
+}
+
+.error
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: red;
+}
+
+.info
+{	
+	padding-left:200px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #005600;
+}
